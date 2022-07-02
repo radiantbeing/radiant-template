@@ -1,8 +1,7 @@
-# radiant-template
+# RADIANT TEMPLATE
 
-## Favicon
+RADIANT TEMPLATE는 RADIANT 시리즈의 스타일을 규정한 라이브러리입니다.
 
-`public/img/favicon`
+## Reference
 
-light icon의 이름은 `favicon_default_01_light`
-dark icon의 이름은 `favicon_default_02_dark`
+기초 CSS 라이브러리로 [normalize.css](https://github.com/necolas/normalize.css/)와 [Skeleton](https://github.com/dhg/Skeleton/tree/gh-pages/examples/landing)을 이용했습니다.
