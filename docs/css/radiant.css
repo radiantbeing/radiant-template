@@ -152,6 +152,7 @@ img.navbar-brand-logo,
 
 /* ========== Navbar ========== */
 nav.navbar {
+  position: relative;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid rgba(100, 100, 100, 0.3);
