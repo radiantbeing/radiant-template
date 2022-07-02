@@ -1,22 +1,17 @@
 body,
 body[data-theme="light"] {
-  /* --font-color: #292929;
-  --background-color: #ffffff; */
   --font-color: #292929;
   --background-color: #ffffff;
+  --header-color: #ffffff;
   --icon-filter: none;
 }
 
 body[data-theme="dark"] {
-  /* --font-color: #292929;
-  --background-color: #ffffff; */
   --font-color: #ffffff;
   --background-color: #292929;
+  --header-color: #222222;
   --icon-filter: invert();
-
 }
-
-
 
 /* ========== Coloring ========== */
 body {
@@ -28,9 +23,9 @@ a.navbar-brand-title {
   color: var(--font-color);
 }
 
-.navbar-social-item>a>img,
+.navbar-social-item > a > img,
 img.navbar-brand-logo,
-.navbar-toggle>img {
+.navbar-toggle > img {
   filter: var(--icon-filter);
 }
 
@@ -159,8 +154,9 @@ img.navbar-brand-logo,
 nav.navbar {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid rgba(73, 73, 73, 0.3);
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
   margin-bottom: -1px;
+  background-color: var(--header-color);
 }
 
 div.navbar-brand {
@@ -205,7 +201,7 @@ li.navbar-link-item {
   margin-bottom: 0.8rem;
 }
 
-li.navbar-link-item>a {
+li.navbar-link-item > a {
   font-size: 1.6rem;
   text-decoration: none;
   color: var(--font-color);
@@ -230,13 +226,13 @@ li.navbar-social-item:first-child {
   margin-left: 0;
 }
 
-li.navbar-social-item>a {
+li.navbar-social-item > a {
   display: inline-block;
   width: 2.2rem;
   height: 2.2rem;
 }
 
-li.navbar-social-item>a>img {
+li.navbar-social-item > a > img {
   width: 2.2rem;
   height: 2.2rem;
 }
@@ -249,7 +245,7 @@ a.navbar-toggle {
   height: 3rem;
 }
 
-a.navbar-toggle>img {
+a.navbar-toggle > img {
   width: 3rem;
   height: 3rem;
 }
@@ -302,7 +298,7 @@ a.navbar-toggle>img {
     margin-left: 0;
   }
 
-  li.navbar-link-item>a {
+  li.navbar-link-item > a {
     font-size: 1.6rem;
     text-decoration: none;
     color: var(--font-color);
@@ -324,12 +320,12 @@ a.navbar-toggle>img {
     margin-left: 0;
   }
 
-  li.navbar-social-item>a {
+  li.navbar-social-item > a {
     width: 2.2rem;
     height: 2.2rem;
   }
 
-  li.navbar-social-item>a>img {
+  li.navbar-social-item > a > img {
     width: 2.2rem;
     height: 2.2rem;
   }
