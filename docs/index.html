@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RADIANT TEMPLATE</title>
     <!-- RADIANT TEMPLATE -->
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/skeleton.css" />
-    <link rel="stylesheet" href="./css/radiant.css" />
+    <link rel="stylesheet" href="/radiant_template/css/radiant.css" />
+    <script defer src="/radiant_template/js/radiant.js"></script>
+    <!-- ---------------- -->
     <link
       rel="shortcut icon"
       href="./img/icon/icon_logo_02_dark.svg"
@@ -21,10 +21,14 @@
       type="image/x-icon"
       media="(prefers-color-scheme: dark)"
     />
-    <script defer src="./js/radiant.js"></script>
-    <script defer src="./js/darkmode.js"></script>
+    <style>
+      .docs-body {
+        margin-top: 6rem;
+      }
+    </style>
   </head>
   <body>
+    <!-- RADIANT TEMPLATE Navigation Bar -->
     <nav class="navbar">
       <div class="navbar-brand">
         <img
@@ -51,32 +55,50 @@
               <img src="./img/icon/icon_twitter_01_dark.svg" alt="twitter" />
             </a>
           </li>
+          <!-- If you want to use dark mode, don't delete this <li> tag -->
           <li class="navbar-social-item">
             <a href="#" class="dark-mode-toggle" id="darkModeToggle">
-              <img src="./img/icon/icon_half_circle_01_light.svg" alt="dark mode" />
+              <img
+                src="./img/icon/icon_half_circle_01_light.svg"
+                alt="dark mode"
+              />
             </a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container mt-3">
+    <!-- ------------------------------- -->
+    <div class="container docs-body">
       <h1>RADIANT TEMPLATE</h1>
+      <h5>What is RADIANT TEMPLATE?</h5>
       <p>
-        RADIANT TEMPLATE은 RADIANT Series의 토대가 되는 HTML 및 CSS
-        Template입니다.
+        <b>RADIANT TEMPLATE</b> is a defined template of the basic theme of my
+        project.
       </p>
-      <h2>References</h2>
+      <h5>How to use</h5>
       <p>
-        CSS는
-        <a href="https://github.com/necolas/normalize.css/">normalize.css</a>와
-        <a href="https://github.com/dhg/Skeleton">Skeleton</a>에 기반하고,
-        Navigation, Spacing 등의 스타일을 추가하여 만들어졌습니다.
+        Git clone the
+        <a href="https://github.com/radiantbeing99/radiant-template">
+          radiant-template
+        </a>
+        repository to your project folder. The <b>radiant_template</b> folder
+        must be located in the top-level directory of the project. Please refer
+        to <b>docs/index.html</b> to configure the website after finishing git
+        clone.
       </p>
-      <h2>Font</h2>
+      <h5>References</h5>
       <p>
-        RADIANT TEMPLATE는 기본 Font로
-        <a href="https://github.com/orioncactus/pretendard">Pretendard</a>를
-        채택하였습니다.
+        It is based on
+        <a href="https://github.com/necolas/normalize.css/"> normalize.css </a>
+        and <a href="https://github.com/dhg/Skeleton">Skeleton</a> by default.
+      </p>
+      <h5>Font</h5>
+      <p>
+        We adopted
+        <a href="https://github.com/orioncactus/pretendard">Pretendard</a> as
+        the default font. Pretendard is the best font that is neat, clear and
+        easy to see. Dynamic subsets are applied to free up webfont capacity
+        pressures.
       </p>
     </div>
   </body>
