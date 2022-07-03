@@ -7,7 +7,7 @@ function createElement(string) {
 
 const toggleButton = createElement(/* html */ `
     <a class="navbar-toggle" id="navbarToggle" href="#">
-        <img src="/radiant_template/img/icon/icon_toggle_01_dark.svg" alt="toggle button">
+        <img src="radiant_template/img/icon/icon_toggle_01_dark.svg" alt="toggle button">
     </a>`);
 
 document.body.appendChild(toggleButton);
