@@ -13,17 +13,15 @@ body {
 /* Variables according to Dark Mode  */
 body,
 body[data-theme="light"] {
-  --font-color: #292929;
+  --font-color: #252525;
   --background-color: #ffffff;
   --header-color: #ffffff;
-  --icon-filter: none;
 }
 
 body[data-theme="dark"] {
   --font-color: #ffffff;
-  --background-color: #292929;
-  --header-color: #222222;
-  --icon-filter: invert();
+  --background-color: #252525;
+  --header-color: #252525;
 }
 
 /* ========== Coloring ========== */

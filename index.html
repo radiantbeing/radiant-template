@@ -5,22 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RADIANT TEMPLATE</title>
-    <!-- RADIANT TEMPLATE -->
-    <link rel="stylesheet" href="./radiant_template/css/radiant_template.css" />
-    <script defer src="./radiant_template/js/radiant_template.js"></script>
-    <!-- ---------------- -->
-    <link
-      rel="shortcut icon"
-      href="./img/icon/icon_logo_02_dark.svg"
-      type="image/x-icon"
-      media="(prefers-color-scheme: light)"
-    />
-    <link
-      rel="shortcut icon"
-      href="./img/icon/icon_logo_01_light.svg"
-      type="image/x-icon"
-      media="(prefers-color-scheme: dark)"
-    />
+    <!-- IMPORT RADIANT TEMPLATE MODULES-->
+    <link rel="stylesheet" href="radiant_assets/css/style.css" />
+    <script type="module" defer src="radiant_assets/js/main.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!------------------------------------>
     <style>
       .docs-body {
         margin-top: 6rem;
@@ -28,78 +17,37 @@
     </style>
   </head>
   <body>
-    <!-- RADIANT TEMPLATE Navigation Bar -->
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <img
-          class="navbar-brand-logo"
-          src="./img/icon/icon_logo_02_dark.svg"
-          alt="brand"
-        />
-        <a class="navbar-brand-title" href="#">RADIANT TEMPLATE</a>
-      </div>
-      <div class="navbar-navs" id="navbarNavs">
-        <ul class="navbar-links">
-          <li class="navbar-link-item"><a href="#">PROJECTS</a></li>
-          <li class="navbar-link-item"><a href="#">BLOG</a></li>
-          <li class="navbar-link-item"><a href="#">ABOUT</a></li>
-        </ul>
-        <ul class="navbar-socials">
-          <li class="navbar-social-item">
-            <a href="#" target="_blank">
-              <img src="./img/icon/icon_github_02_dark.svg" alt="github" />
-            </a>
-          </li>
-          <li class="navbar-social-item">
-            <a href="#" target="_blank">
-              <img src="./img/icon/icon_twitter_01_dark.svg" alt="twitter" />
-            </a>
-          </li>
-          <!-- If you want to use dark mode, don't delete this <li> tag -->
-          <li class="navbar-social-item">
-            <a href="#" class="dark-mode-toggle" id="darkModeToggle">
-              <img
-                src="./img/icon/icon_half_circle_01_light.svg"
-                alt="dark mode"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- ------------------------------- -->
     <div class="container docs-body">
       <h1>RADIANT TEMPLATE</h1>
-      <h5>What is RADIANT TEMPLATE?</h5>
+      <h5>RADIANT TEMPLATE란?</h5>
       <p>
-        <b>RADIANT TEMPLATE</b> is a defined template of the basic theme of my
-        project.
+        <b>RADIANT TEMPLATE</b>은 개인 프로젝트인 RADIANT 시리즈에 공통적으로
+        적용되는 웹 라이브러리입니다. 미리 정립된 CSS 스타일과 자동 생성되는
+        네비게이션 바로 쉽게 웹 사이트를 생성해보세요.
       </p>
-      <h5>How to use</h5>
-      <p>
-        Git clone the
-        <a href="https://github.com/radiantbeing99/radiant-template"
-          >radiant-template</a
-        >
-        repository to your project folder. The <b>radiant_template</b> folder
-        must be located in the top-level directory of the project. Please refer
-        to <b>docs/index.html</b> to configure the website after finishing git
-        clone.
-      </p>
-      <h5>References</h5>
-      <p>
-        It is based on
-        <a href="https://github.com/necolas/normalize.css/">normalize.css</a>
-        and <a href="https://github.com/dhg/Skeleton">Skeleton</a> by default.
-      </p>
-      <h5>Font</h5>
-      <p>
-        We adopted
-        <a href="https://github.com/orioncactus/pretendard">Pretendard</a> as
-        the default font. Pretendard is the best font that is neat, clear and
-        easy to see. Dynamic subsets are applied to free up webfont capacity
-        pressures.
-      </p>
+      <h5>시작하기</h5>
+      <ol>
+        <li>
+          Github에서
+          <a
+            href="https://github.com/radiantbeing99/radiant-template"
+            target="_blank"
+            >RADIANT TEMPLATE</a
+          >의 레포지토리의 소스를 다운로드하세요.
+        </li>
+        <li>소스 내의 <b>index.html</b>을 가이드로 프로젝트를 진행하세요.</li>
+      </ol>
+
+      <h5>참조</h5>
+      <ol>
+        <li>
+          <a href="https://github.com/necolas/normalize.css/">normalize.css</a>
+        </li>
+        <li><a href="https://github.com/dhg/Skeleton">Skeleton</a></li>
+        <li>
+          <a href="https://github.com/orioncactus/pretendard">Pretendard</a>
+        </li>
+      </ol>
     </div>
   </body>
 </html>
